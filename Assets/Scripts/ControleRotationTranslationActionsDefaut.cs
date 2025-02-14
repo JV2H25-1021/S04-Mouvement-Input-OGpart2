@@ -9,6 +9,7 @@ public class ControleRotationTranslationActionsDefaut : MonoBehaviour
 
     private void OnMove(InputValue valeur)
     {
+        Debug.Log("Move a changé.");
         angle = valeur.Get<Vector2>().x;
     }
 
